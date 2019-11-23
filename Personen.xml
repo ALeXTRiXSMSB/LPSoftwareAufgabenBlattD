@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<personen>
+    <person id="1">
+        <name>Mustermann</name>
+        <vorname>Max</vorname>
+        <geburtsdatum>25.11.1983</geburtsdatum>
+        <postleitzahl>54321</postleitzahl>
+        <ort>Bierdorf</ort>
+        <!--Cool wenn ich das null lasse merkt er das sogar und sagt \n-->
+        <hobby></hobby>
+        <lieblingsfarbe></lieblingsfarbe>
+        <lieblingsfilm></lieblingsfilm>
+    </person>
+    <person id="2">
+        <name>Müller</name>
+        <vorname>Petra</vorname>
+        <geburtsdatum>13.04.1990</geburtsdatum>
+        <postleitzahl>76543</postleitzahl>
+        <ort>Bierdorf</ort>
+        <hobby></hobby>
+        <lieblingsfarbe></lieblingsfarbe>
+        <lieblingsfilm></lieblingsfilm>
+    </person>
+</personen>
