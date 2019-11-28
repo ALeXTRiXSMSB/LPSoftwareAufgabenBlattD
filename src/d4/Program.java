@@ -30,6 +30,24 @@ public class Program {
         }
         System.out.println(xml);
 
+        //Fehler suche
+        String xmlFehlerkorrektur = xml;
+        String currentTag;
+        boolean fertig = false;
+        int tmp  = 0;
+        for(int i = 0; i < xmlFehlerkorrektur.length();i++){
+
+        }
+        while(!fertig){
+            currentTag = xmlFehlerkorrektur.substring(xmlFehlerkorrektur.indexOf("<")+1,xmlFehlerkorrektur.indexOf(">"));
+            xmlFehlerkorrektur = xmlFehlerkorrektur.replace("<"+currentTag+">","");
+            xmlFehlerkorrektur = xmlFehlerkorrektur.replace("</"+currentTag+">","");
+            for(int i = 0; i < xmlFehlerkorrektur.length();i++){
+                if(!(xmlFehlerkorrektur.contains("<") && xmlFehlerkorrektur.contains(">"))){
+                    fertig = true;
+                }
+            }
+        }
         //xml tag team vorne und hinten abschneiden
         xml = xml.substring(0,xml.length()-7);
         xml = xml.substring(6);
