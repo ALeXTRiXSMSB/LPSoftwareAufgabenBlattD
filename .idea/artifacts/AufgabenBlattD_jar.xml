@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AufgabenBlattD:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AufgabenBlattD_jar</output-path>
+    <root id="archive" name="AufgabenBlattD.jar">
+      <element id="module-output" name="AufgabenBlattD" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/db4o-8.0.276.16149-all-java5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

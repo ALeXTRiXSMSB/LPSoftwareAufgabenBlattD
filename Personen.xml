@@ -7,9 +7,9 @@
         <postleitzahl>54321</postleitzahl>
         <ort>Bierdorf</ort>
         <!--Cool wenn ich das null lasse merkt er das sogar und sagt \n-->
-        <hobby></hobby>
-        <lieblingsfarbe></lieblingsfarbe>
-        <lieblingsfilm></lieblingsfilm>
+        <hobby>test1</hobby>
+        <lieblingsfarbe>test1</lieblingsfarbe>
+        <lieblingsfilm>test1</lieblingsfilm>
     </person>
     <person id="2">
         <name>Müller</name>
