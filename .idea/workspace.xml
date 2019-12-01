@@ -8,11 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5aca7aad-dd9f-4cee-9fed-5052393e2773" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AufgabenBlattD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AufgabenBlattD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Personen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d2/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d2/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d1/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AufgabenBlattD_jar/AufgabenBlattD.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AufgabenBlattD_jar/AufgabenBlattD.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Bibliothek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Bibliothek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/Bibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/Bibliothek.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +187,7 @@
       <workItem from="1574932253859" duration="2938000" />
       <workItem from="1575016511576" duration="3552000" />
       <workItem from="1575021533105" duration="5524000" />
-      <workItem from="1575191503699" duration="10039000" />
+      <workItem from="1575191503699" duration="16675000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1574517310681</created>
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575016982197</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Alle Aufgaben fertig bis auf Bonus &#10;und es ist mega hässlich">
+      <created>1575201944765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575201944765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +260,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Aufgabe 1 und 2 fertig &#10;Aufgabe 3 ist doch aufgabe 2 noch mal ? &#10;Aufgabe 4 ausgabe und groß und kleinschreibung fertig mehrere nutzen können angelegt werden &#10;Aufgabe 4 muss noch: inhalt von namen fehlt oder ist doppelt, tags nicht vorhanden oder doppelt" />
     <MESSAGE value="Aufgabe 1,2 und 3 fertig &#10;Aufgabe 4 ausgabe und groß und kleinschreibung fertig mehrere nutzen können angelegt werden &#10;Aufgabe 4 muss noch: inhalt von namen fehlt oder ist doppelt, tags nicht vorhanden oder doppelt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgabe 1,2 und 3 fertig &#10;Aufgabe 4 ausgabe und groß und kleinschreibung fertig mehrere nutzen können angelegt werden &#10;Aufgabe 4 muss noch: inhalt von namen fehlt oder ist doppelt, tags nicht vorhanden oder doppelt" />
+    <MESSAGE value="Alle Aufgaben fertig bis auf Bonus &#10;und es ist mega hässlich" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alle Aufgaben fertig bis auf Bonus &#10;und es ist mega hässlich" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,9 +277,14 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/d7/Bibliothek.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/src/d7/XMLPersistency.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/d7/XMLPersistency.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

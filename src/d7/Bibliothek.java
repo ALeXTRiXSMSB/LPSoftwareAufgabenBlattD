@@ -20,7 +20,7 @@ public class Bibliothek {
     public static void main(String[] args){
         Zettelkasten zk = new Zettelkasten();
         WikibooksContentHandler wch = new WikibooksContentHandler();
-        String suchen = args[0];
+        String suchen = "Java_Standard";
         try{
             URL link = new URL("https://de.wikibooks.org/wiki/Spezial:Export/"+suchen);
             URLConnection conn = link.openConnection();
@@ -57,5 +57,10 @@ public class Bibliothek {
         } catch (SAXException e) {
             e.printStackTrace();
         }
+        zk.addMedium(new Buch("test",1,"test","1234","test"));
+        zk.addMedium(new Buch("test",1,"test","1234","test"));
+        zk.addMedium(new Buch("test",1,"test","1234","test"));
+        XMLPersistency test = new XMLPersistency();
+        test.save(zk,"bonus.xml");
     }
 }
