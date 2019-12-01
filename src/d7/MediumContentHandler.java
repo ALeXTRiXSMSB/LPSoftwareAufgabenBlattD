@@ -1,5 +1,7 @@
 package d7;
-
+/**
+ * @author Alexander Karg
+ */
 import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.Locator;
@@ -7,6 +9,9 @@ import org.xml.sax.SAXException;
 
 import java.util.ArrayList;
 
+/**
+ * Bonus aufgabe nicht weiter bearbeitet
+ */
 public class MediumContentHandler implements ContentHandler {
 
     private String currentvalue;

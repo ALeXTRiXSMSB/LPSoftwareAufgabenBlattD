@@ -1,4 +1,7 @@
 package d1;
+/**
+ * @author Alexander Karg
+ */
 
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -6,7 +9,6 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -14,9 +16,17 @@ import java.util.Scanner;
 
 public class Program {
 
+    /**
+     * Klassenattribut
+     */
     private static PersonenContentHandler pch = new PersonenContentHandler();
 
+    /**
+     * Programmeinstiegspunkt
+     * @param args0
+     */
     public static void main(String[] args0){
+        //Abfrage danach was getan werden soll
         Scanner tastatur = new Scanner(System.in);
         boolean beenden = false;
         while(!beenden){
@@ -44,6 +54,7 @@ public class Program {
                     try{
                         addPerson();
                     }catch(ParseException e){
+                        //Fehlerbehandlung wenn geburtsdatum oder Postleitzahl fasch
                         System.out.println("Geburtsdatum nicht richtig eingegeben");
                     }catch(NumberFormatException e){
                         System.out.println("Postleitzahl nicht richtig eingegeben");
@@ -53,19 +64,30 @@ public class Program {
         }
     }
 
+    /**
+     * Methode zum lesen der XML datei
+     */
     private static void readFromXML(){
         try (FileReader reader = new FileReader("Personen.xml")) {
+            //Quelle usw werden angegeben
             InputSource is = new InputSource(reader);
             XMLReader xmlreader = XMLReaderFactory.createXMLReader();
+            //zu verwenden Contenthandler
             xmlreader.setContentHandler(pch);
+            //aufrufen der Parsemethode zum parsen der XML datei
             xmlreader.parse(is);
         }catch(IOException | SAXException e){
             e.printStackTrace();
         }
     }
 
+    /**
+     * Methode zum erstellen einer neuen Person
+     * @throws ParseException
+     */
     private static void addPerson() throws ParseException {
         Scanner tastatur = new Scanner(System.in);
+        //Abfrage nach Persondaten
         Person neu = new Person();
         System.out.println("Bitte den vornamen eingeben");
         neu.setVorname(tastatur.nextLine());
@@ -86,6 +108,8 @@ public class Program {
         System.out.println("Bitte den Lieblingsfilm eingeben");
         neu.setLieblingsfilm(tastatur.nextLine());
 
+        //erstellen der neuen ID
+        //die höchte bisher verwendete ID wird um 1 hochgezählt
         int highestid = 0;
         for(Person p:Program.pch.getPersonen()){
             if(highestid<=p.getId()){
@@ -93,14 +117,19 @@ public class Program {
             }
         }
 
+        //Setzen der ID
         neu.setId(highestid);
         Program.pch.getPersonen().add(neu);
     }
 
+    /**
+     * Methode zum ausgeben der XML struktur auf der Console
+     */
     private static void writeToXML(){
         //Soll das jetzt auch ins xml doc geschreiben werden oder nur fix in der ArrayList gehalten?
         ArrayList<Person> tmp = Program.pch.getPersonen();
 
+        //über PersonArray aus dem Contenthandler Iterrieren um Daten auszugeben
         for(Person p : Program.pch.getPersonen()){
             System.out.println("<person id="+p.getId()+">");
             System.out.println("<name>"+p.getName()+"</name>");

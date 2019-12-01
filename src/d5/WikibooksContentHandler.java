@@ -1,5 +1,7 @@
 package d5;
-
+/**
+ * @author Alexander Karg
+ */
 import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.Locator;
@@ -13,6 +15,9 @@ import java.util.TimeZone;
 
 public class WikibooksContentHandler implements ContentHandler {
 
+    /**
+     * Klassenattribute
+     */
     private String currentValue;
     private ElektronischesMedium currentMedium;
 
@@ -50,15 +55,32 @@ public class WikibooksContentHandler implements ContentHandler {
 
     }
 
+    /**
+     * methode triggert wenn start tag erreicht wird
+     * @param s
+     * @param s1
+     * @param s2
+     * @param attributes
+     * @throws SAXException
+     */
     @Override
     public void startElement(String s, String s1, String s2, Attributes attributes) throws SAXException {
         if(s1.equals("title")){
+            //neues Objekt erstellen wenn start tag = title
            this.currentMedium = new ElektronischesMedium(currentValue);
         }
     }
 
+    /**
+     * methode triggert wenn endtag erreicht wird
+     * @param s
+     * @param s1
+     * @param s2
+     * @throws SAXException
+     */
     @Override
     public void endElement(String s, String s1, String s2) throws SAXException {
+        //fallunterscheidung der endtags
         switch(s1){
             case "title":{
                 this.currentMedium.setTitel(currentValue);
@@ -66,6 +88,7 @@ public class WikibooksContentHandler implements ContentHandler {
                 break;
             }
             case "timestamp":{
+                //datum wird geparst mit simpledateformat
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
                 sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
                 try {
@@ -86,6 +109,13 @@ public class WikibooksContentHandler implements ContentHandler {
         }
     }
 
+    /**
+     * methode schreibt den aktuellen wert in variable für spätere verwendung
+     * @param chars
+     * @param i
+     * @param i1
+     * @throws SAXException
+     */
     @Override
     public void characters(char[] chars, int i, int i1) throws SAXException {
         this.currentValue = new String(chars,i,i1);

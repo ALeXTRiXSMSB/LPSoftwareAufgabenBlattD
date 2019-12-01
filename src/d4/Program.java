@@ -1,18 +1,25 @@
 package d4;
-
+/**
+ * @author Alexander Karg
+ */
 public class Program {
 
     public static void main(String[] args0){
 
+        /**
+         * Attribute zum speichern der werte aus dem XML string
+         */
         String vorname;
         String nachname;
         String alias;
 
+        //xml string
         String xml = "<team>" +
                 "<person><vorname>Norrin</vorname><nachname>Radd</nachname><alias>Silver " +
                 "Surfer</alias></person>" +
                 "<person><vorname>Ben</vorname><nachname>Grimm</nachname><alias>Das " +
                 "Ding</alias></person></team>";
+        //ausgabe des eingabe Strings
         System.out.println(xml);
 
 
@@ -48,14 +55,15 @@ public class Program {
             xml = xml.substring(6);
             //parsen
             while(xml.length() != 0){
+                //zuweisen der werte zwischen den tags an die variablen
                 String xml2 = xml.substring(xml.indexOf("<person>")+8,xml.indexOf("</person>"));
                 vorname = xml2.substring(xml2.indexOf("<vorname>")+9,xml2.indexOf("</vorname>"));
                 nachname = xml2.substring(xml2.indexOf("<nachname>")+10,xml2.indexOf("</nachname>"));
                 alias = xml2.substring(xml2.indexOf("<alias>")+7,xml2.indexOf("</alias>"));
                 xml = xml.substring(xml.indexOf("</person>")+9);
+                //ausgabe der werte
                 System.out.println(vorname + " " + nachname + " - " + alias);
             }
-            System.out.println(xml);
         }else{
             System.out.println("Eingabe fehlerhaft");
         }

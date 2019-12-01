@@ -1,5 +1,7 @@
 package d2;
-
+/**
+ * @author Alexander Karg
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,6 +14,7 @@ public class Program {
 
     public static void main(String[] args){
         try{
+            //abholen des rss feed
             URL link = new URL("http://www.tagesschau.de/xml/rss2");
             //Zeilen weise einlesen
             BufferedReader br = new BufferedReader(new InputStreamReader(link.openStream(),StandardCharsets.UTF_8));

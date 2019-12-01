@@ -1,5 +1,7 @@
 package d5;
-
+/**
+ * @author Alexander Karg
+ */
 public interface Persistency {
 
     /**

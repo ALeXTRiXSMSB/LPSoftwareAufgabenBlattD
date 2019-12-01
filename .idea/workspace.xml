@@ -8,9 +8,54 @@
   <component name="ChangeListManager">
     <list default="true" id="5aca7aad-dd9f-4cee-9fed-5052393e2773" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AufgabenBlattD_jar/AufgabenBlattD.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AufgabenBlattD_jar/AufgabenBlattD.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Bibliothek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Bibliothek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/PersonenContentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/PersonenContentHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d1/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d2/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d2/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d3/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d3/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d3/ItemContentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d3/ItemContentHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d3/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d3/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d4/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d4/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d4/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d4/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/DatabasePersistency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/DatabasePersistency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/DuplicateEntryException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/DuplicateEntryException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/ElektronischesMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/ElektronischesMedium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/HumanReadablePersistency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/HumanReadablePersistency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/WikibooksContentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/WikibooksContentHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/Zettelkasten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/Zettelkasten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/ElektronischesMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/ElektronischesMedium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/HumanReadablePersistency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/HumanReadablePersistency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikiBuch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikiBuch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikibooksContentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikibooksContentHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/XMLPersistency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/XMLPersistency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Zettelkasten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Zettelkasten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d1/PersonenContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d1/PersonenContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d1/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d1/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d3/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d3/ItemContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/ItemContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d3/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d3/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d4/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d4/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/DatabasePersistency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/DatabasePersistency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/DuplicateEntryException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/DuplicateEntryException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/ElektronischesMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/ElektronischesMedium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/HumanReadablePersistency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/HumanReadablePersistency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/Medium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/Persistency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/Persistency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/WikibooksContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/WikibooksContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d5/Zettelkasten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/Zettelkasten.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/d7/Bibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/Bibliothek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/ElektronischesMedium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/ElektronischesMedium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/HumanReadablePersistency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/HumanReadablePersistency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/Medium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/MediumContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/MediumContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/Persistency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/Persistency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/WikiBuch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/WikiBuch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/WikibooksContentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/WikibooksContentHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/XMLPersistency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/XMLPersistency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/d7/Zettelkasten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/Zettelkasten.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +93,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -70,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bibliothek (1)">
+  <component name="RunManager" selected="Application.Program (2)">
     <configuration name="Bibliothek (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="d7.Bibliothek" />
       <module name="AufgabenBlattD" />
@@ -151,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (2)" />
         <item itemvalue="Application.Bibliothek (1)" />
         <item itemvalue="Application.Bibliothek" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Program (1)" />
-        <item itemvalue="Application.Program (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +233,8 @@
       <workItem from="1574932253859" duration="2938000" />
       <workItem from="1575016511576" duration="3552000" />
       <workItem from="1575021533105" duration="5524000" />
-      <workItem from="1575191503699" duration="16675000" />
+      <workItem from="1575191503699" duration="16733000" />
+      <workItem from="1575214507651" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1574517310681</created>
@@ -224,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575201944765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bonus aufgabe angefangen speichern geht &#10;laden muss noch implementiert werden &#10;muss noch kommentieren">
+      <created>1575208624314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575208624314</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,30 +315,16 @@
     <MESSAGE value="Aufgabe 1 und 2 fertig &#10;Aufgabe 3 ist doch aufgabe 2 noch mal ? &#10;Aufgabe 4 ausgabe und groß und kleinschreibung fertig mehrere nutzen können angelegt werden &#10;Aufgabe 4 muss noch: inhalt von namen fehlt oder ist doppelt, tags nicht vorhanden oder doppelt" />
     <MESSAGE value="Aufgabe 1,2 und 3 fertig &#10;Aufgabe 4 ausgabe und groß und kleinschreibung fertig mehrere nutzen können angelegt werden &#10;Aufgabe 4 muss noch: inhalt von namen fehlt oder ist doppelt, tags nicht vorhanden oder doppelt" />
     <MESSAGE value="Alle Aufgaben fertig bis auf Bonus &#10;und es ist mega hässlich" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alle Aufgaben fertig bis auf Bonus &#10;und es ist mega hässlich" />
+    <MESSAGE value="Bonus aufgabe angefangen speichern geht &#10;laden muss noch implementiert werden &#10;muss noch kommentieren" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bonus aufgabe angefangen speichern geht &#10;laden muss noch implementiert werden &#10;muss noch kommentieren" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/d5/Zettelkasten.java</url>
-          <line>150</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/d5/Bibliothek.java</url>
           <line>31</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/d7/XMLPersistency.java</url>
-          <line>130</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/d7/XMLPersistency.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

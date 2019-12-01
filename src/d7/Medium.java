@@ -52,6 +52,11 @@ public abstract class Medium implements Comparable<Medium>{
         return sb.toString();
     }
 
+    /**
+     * Überschriebene MEthode zum vergleichen der Medien
+     * @param m
+     * @return
+     */
     public int compareTo(Medium m){
         if(this.titel.equals(m.getTitel())){
             return this.getClass().toString().compareTo(m.getClass().toString());

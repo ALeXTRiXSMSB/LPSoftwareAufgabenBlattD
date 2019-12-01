@@ -1,5 +1,7 @@
 package d5;
-
+/**
+ * @author Alexander Karg
+ */
 import java.util.Date;
 
 /**
@@ -25,6 +27,10 @@ public class ElektronischesMedium extends Medium{
         this.setUrl(_url);
     }
 
+    /**
+     * Überschriebener KOnstruktor zum erstellen eines Elektronischen Mediums das ein buch ist
+     * @param _title
+     */
     public ElektronischesMedium(String _title){
         super(_title);
         this.buch = new Buch(_title);
@@ -79,6 +85,7 @@ public class ElektronischesMedium extends Medium{
      */
     public String calculateRepresentation() {
         StringBuilder rueckgabe = new StringBuilder();
+        //überprüfen ob es sich um Elektronisches Buch handelt
         if(this.buch != null){
             rueckgabe.append("Letzte Änderung: " + this.lastChange.toString()+System.lineSeparator()).append("Urheber: "+this.buch.getVerfasser());
         }else{

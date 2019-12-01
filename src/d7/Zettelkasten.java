@@ -1,5 +1,7 @@
 package d7;
-
+/**
+ * @author Alexander Karg
+ */
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;

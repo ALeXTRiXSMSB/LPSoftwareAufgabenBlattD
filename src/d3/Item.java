@@ -1,7 +1,12 @@
 package d3;
-
+/**
+ * @author Alexander Karg
+ */
 public class Item {
 
+    /**
+     * klassenattribute
+     */
     private String titel;
     private String url;
     private String beschreibung;
@@ -28,12 +33,5 @@ public class Item {
 
     public void setBeschreibung(String beschreibung) {
         this.beschreibung = beschreibung;
-    }
-
-    public void calculateRepresentaion(){
-        System.out.println(this.getTitel());
-        System.out.println(this.getBeschreibung());
-        System.out.println(this.getUrl());
-        System.out.println("");
     }
 }

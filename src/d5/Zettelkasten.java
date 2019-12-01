@@ -1,5 +1,7 @@
 package d5;
-
+/**
+ * @author Alexander Karg
+ */
 import java.util.*;
 
 public class Zettelkasten implements Iterable<Medium> {

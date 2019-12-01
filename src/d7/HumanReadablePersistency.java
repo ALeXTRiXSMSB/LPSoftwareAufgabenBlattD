@@ -1,5 +1,7 @@
 package d7;
-
+/**
+ * @author Alexander Karg
+ */
 import java.io.*;
 
 public class HumanReadablePersistency implements Persistency {

@@ -1,5 +1,7 @@
 package d7;
-
+/**
+ * @author Alexander Karg
+ */
 public interface Persistency {
 
     /**

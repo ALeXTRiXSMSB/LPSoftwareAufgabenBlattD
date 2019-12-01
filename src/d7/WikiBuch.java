@@ -1,5 +1,7 @@
 package d7;
-
+/**
+ * @author Alexander Karg
+ */
 import java.util.ArrayList;
 
 public class WikiBuch {
@@ -36,6 +38,9 @@ public class WikiBuch {
         this.kapitel = kapitel;
     }
 
+    /**
+     * methode zum ausgeben der Daten des WikiBuchs
+     */
     public void print(){
         StringBuilder sb = new StringBuilder();
         sb.append("Regal: "+this.regal+System.lineSeparator());

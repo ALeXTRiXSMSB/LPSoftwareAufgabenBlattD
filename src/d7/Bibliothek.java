@@ -18,10 +18,12 @@ public class Bibliothek {
      * @param args
      */
     public static void main(String[] args){
-        Zettelkasten zk = new Zettelkasten();
+
         WikibooksContentHandler wch = new WikibooksContentHandler();
-        String suchen = "Java_Standard";
+        //entgegeen nehmen des ersten argument beim aufrufen des programmes über die kommandozeile
+        String suchen = args[0];
         try{
+            //Abholen des Streams zum auslesen der infos für das buch
             URL link = new URL("https://de.wikibooks.org/wiki/Spezial:Export/"+suchen);
             URLConnection conn = link.openConnection();
             InputSource is = new InputSource(conn.getInputStream());
@@ -29,6 +31,7 @@ public class Bibliothek {
             xmlreader.setContentHandler(wch);
             xmlreader.parse(is);
 
+            //Abholen des Stream zum auslesen des Inhaltsverzeichnisses
             URL link2 = new URL("https://de.wikibooks.org/w/api.php?action=parse&format=xml&prop=sections&page="+suchen);
             URLConnection conn2 = link2.openConnection();
             InputSource is2 = new InputSource(conn2.getInputStream());
@@ -36,6 +39,7 @@ public class Bibliothek {
             xmlreader2.setContentHandler(wch);
             xmlreader2.parse(is2);
 
+            //abholen des Streams zum ausleses des Regal Tags
             URL link3 = new URL("https://de.wikibooks.org/w/api.php?action=parse&format=xml&prop=links&page="+suchen);
             URLConnection conn3 = link3.openConnection();
             InputSource is3 = new InputSource(conn3.getInputStream());
@@ -43,6 +47,8 @@ public class Bibliothek {
             xmlreader3.setContentHandler(wch);
             xmlreader3.parse(is3);
 
+            //ausgabe der Daten des Buches
+            //WikiBuch wird aus dem Contenthandler ausgelesen
             WikiBuch wb = wch.getCurrentBuch();
             if(wb != null){
                 System.out.println("Suche nach: "+suchen.replace("_", " "));
@@ -57,6 +63,9 @@ public class Bibliothek {
         } catch (SAXException e) {
             e.printStackTrace();
         }
+
+        //Bonus teil
+        Zettelkasten zk = new Zettelkasten();
         zk.addMedium(new Buch("test",1,"test","1234","test"));
         zk.addMedium(new Buch("test",1,"test","1234","test"));
         zk.addMedium(new Buch("test",1,"test","1234","test"));

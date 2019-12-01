@@ -1,5 +1,7 @@
 package d7;
-
+/**
+ * @author Alexander Karg
+ */
 import org.xml.sax.*;
 import org.xml.sax.helpers.XMLReaderFactory;
 
@@ -15,6 +17,9 @@ import java.util.TimeZone;
 
 public class WikibooksContentHandler implements ContentHandler {
 
+    /**
+     * Klassenattribute
+     */
     private String currentValue;
     private WikiBuch wb;
     private boolean regal = false;
@@ -54,6 +59,14 @@ public class WikibooksContentHandler implements ContentHandler {
 
     }
 
+    /**
+     * methode triggert wenn start tag erreicht wird
+     * @param s
+     * @param s1
+     * @param s2
+     * @param attributes
+     * @throws SAXException
+     */
     @Override
     public void startElement(String s, String s1, String s2, Attributes attributes) throws SAXException {
         if (s1.equals("title")) {
@@ -71,6 +84,13 @@ public class WikibooksContentHandler implements ContentHandler {
         }
     }
 
+    /**
+     * methode triggert wenn endtag erreicht wird
+     * @param s
+     * @param s1
+     * @param s2
+     * @throws SAXException
+     */
     @Override
     public void endElement(String s, String s1, String s2) throws SAXException {
         switch (s1) {
@@ -105,6 +125,13 @@ public class WikibooksContentHandler implements ContentHandler {
         }
     }
 
+    /**
+     * methode schreibt den aktuellen wert in variable für spätere verwendung
+     * @param chars
+     * @param i
+     * @param i1
+     * @throws SAXException
+     */
     @Override
     public void characters(char[] chars, int i, int i1) throws SAXException {
         this.currentValue = new String(chars, i, i1);

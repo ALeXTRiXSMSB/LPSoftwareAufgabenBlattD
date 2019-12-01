@@ -1,5 +1,7 @@
 package d7;
-
+/**
+ * @author Alexander Karg
+ */
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -15,6 +17,12 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 
 public class XMLPersistency implements Persistency {
+
+    /**
+     * Methode zum erstellen einer XML datei
+     * @param zk
+     * @param dateiname
+     */
     @Override
     public void save(Zettelkasten zk, String dateiname) {
         try{
@@ -22,6 +30,8 @@ public class XMLPersistency implements Persistency {
             DocumentBuilder db = dbf.newDocumentBuilder();
             Document d = db.newDocument();
 
+            //kind element werden erstellt und ihnen werden die werte zugewiesen
+            //zum schluss werden diese immer weiter dem übergeordneten element angehängt
             Element root = d.createElement("zettelkasten");
             d.appendChild(root);
 
