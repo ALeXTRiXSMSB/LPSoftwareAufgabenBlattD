@@ -20,7 +20,7 @@ public class Bibliothek {
     public static void main(String[] args){
         Zettelkasten zk = new Zettelkasten();
         WikibooksContentHandler wch = new WikibooksContentHandler();
-        String suchen = "Optimierung_von_Kleinheizungsanlagen";
+        String suchen = args[0];
         try{
             URL link = new URL("https://de.wikibooks.org/wiki/Spezial:Export/"+suchen);
             URLConnection conn = link.openConnection();

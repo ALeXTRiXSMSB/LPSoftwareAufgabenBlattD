@@ -65,11 +65,12 @@ public class Bibliothek {
         }
 
         //Bonus teil
-        Zettelkasten zk = new Zettelkasten();
+       /** Zettelkasten zk = new Zettelkasten();
         zk.addMedium(new Buch("test",1,"test","1234","test"));
         zk.addMedium(new Buch("test",1,"test","1234","test"));
         zk.addMedium(new Buch("test",1,"test","1234","test"));
         XMLPersistency test = new XMLPersistency();
         test.save(zk,"bonus.xml");
+        **/
     }
 }
