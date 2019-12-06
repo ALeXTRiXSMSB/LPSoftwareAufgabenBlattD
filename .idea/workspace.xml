@@ -7,27 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aca7aad-dd9f-4cee-9fed-5052393e2773" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AufgabenBlattD_jar/AufgabenBlattD.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AufgabenBlattD_jar/AufgabenBlattD.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d4/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d4/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d4/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/Bibliothek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/Bibliothek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/DatabasePersistency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/DatabasePersistency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/ElektronischesMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/ElektronischesMedium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/Medium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/WikibooksContentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d5/WikibooksContentHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Bibliothek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Bibliothek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/ElektronischesMedium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/ElektronischesMedium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Medium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/Medium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/MediumContentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/MediumContentHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikiBuch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikiBuch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikibooksContentHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/WikibooksContentHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/XMLPersistency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AufgabenBlattD/d7/XMLPersistency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d5/Bibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d5/Bibliothek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/d7/Bibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/d7/Bibliothek.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +186,8 @@
       <workItem from="1575016511576" duration="3552000" />
       <workItem from="1575021533105" duration="5524000" />
       <workItem from="1575191503699" duration="16733000" />
-      <workItem from="1575214507651" duration="4386000" />
+      <workItem from="1575214507651" duration="4992000" />
+      <workItem from="1575276465663" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1574517310681</created>
@@ -257,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575216993941</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Alles kommentiert alles fertig bis auf den bonus aber der gibt auch nur einen punkt ich habe keinen bock mehr">
+      <created>1575221429164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575221429164</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +284,9 @@
     <MESSAGE value="Alle Aufgaben fertig bis auf Bonus &#10;und es ist mega hässlich" />
     <MESSAGE value="Bonus aufgabe angefangen speichern geht &#10;laden muss noch implementiert werden &#10;muss noch kommentieren" />
     <MESSAGE value="Alles kommentiert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alles kommentiert" />
+    <MESSAGE value="Alles kommentiert alles fertig ich habe keinen bock mehr" />
+    <MESSAGE value="Alles kommentiert alles fertig bis auf den bonus aber der gibt auch nur einen punkt ich habe keinen bock mehr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alles kommentiert alles fertig bis auf den bonus aber der gibt auch nur einen punkt ich habe keinen bock mehr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
